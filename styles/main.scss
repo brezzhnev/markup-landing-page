@@ -1,0 +1,18 @@
+body {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+
+  background-color: #fafafa;
+  color: #ccc;
+  font-family: Helvetica, sans-serif;
+  font-size: 6em;
+  font-weight: bold;
+
+  // here goes your code
+
+  &.loading {
+    background-color: #fff;
+  }
+}
