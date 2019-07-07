@@ -8,19 +8,13 @@
 git clone git@github.com:brezzhnev/markup-landing-page.git
 ```
 
-#### Step 2. Create a simple project structure
-
-- `index.html`
-- `styles/`
-- `images/`
-- `fonts/`
-
-#### Step 3. Install Grunt task runner
+#### Step 2. Install Grunt task runner and project dependencies
 
 It will merge your SASS files and transform them to regular CSS. Additionally, it will optimize your static assets (styles, images, HTML).
 
 ```
-npm i -g grunt
+npm install -g grunt
+npm install
 ```
 
 ## Requirements
